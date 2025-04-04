@@ -44,5 +44,25 @@ max-width: 100%;
 padding: 1rem auto;
 }
 
+.container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
 
+.container .navbar .main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container .navbar .main-menu li a {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+  margin-left: 10px;
+  text-decoration: none;
+}
 
