@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+  --custom-symbol: symbols("->");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,6 +29,7 @@ h1 {
 
 h2 {
   font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -82,6 +87,11 @@ margin: 0 auto;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+}
+
+#projects ul {
+list-style-type: symbols(var(--custom-symbol));
+padding-left: 1rem;
 }
 
 
