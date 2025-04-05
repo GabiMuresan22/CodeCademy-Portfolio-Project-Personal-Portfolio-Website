@@ -66,3 +66,7 @@ padding: 1rem auto;
   text-decoration: none;
 }
 
+.container .navbar .main-menu li a:hover {
+  cursor: pointer;
+  color: rgb(233, 178, 106);
+}
